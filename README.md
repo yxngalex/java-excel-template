@@ -2,7 +2,7 @@
 
 To download and install latest version of JDK go to: [Oracle](https://www.oracle.com/java/technologies/downloads/)
 
-### After you finished with installing JDK, you will need to do:
+### After you have finished with installing JDK, you will need to do:
 
 1. Install all of the apache poi dependencies that have been used,
 2. Put your excel file that has the exact same tamplate to `java-excel-template` project.
