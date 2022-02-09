@@ -1,8 +1,6 @@
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Scanner;
 
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -12,9 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Main {
     public static void main(String[] args) {
-//        Scanner userInput = new Scanner(System.in);
         String excelFilePath = "eli.xlsx";
-//        String excelFilePath = userInput.nextLine();
 
         try {
             FileInputStream inputStream = new FileInputStream(excelFilePath);
